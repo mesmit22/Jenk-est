@@ -32,7 +32,7 @@ namespace Jenkest
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Git push test!");
                 });
             });
         }
