@@ -32,7 +32,7 @@ namespace Jenkest
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Git push test!");
+                    await context.Response.WriteAsync("Hello World.  This is my test to see if Jenkins works!");
                 });
             });
         }
